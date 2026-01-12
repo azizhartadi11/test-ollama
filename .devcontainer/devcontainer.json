@@ -1,8 +1,0 @@
-{
-  "name": "Ubuntu Codespace",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "remoteUser": "root",
-  "postCreateCommand": "bash setup.sh"
-}
