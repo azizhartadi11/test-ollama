@@ -1,12 +1,8 @@
 {
-  "name": "Ubuntu VPS Codespace",
+  "name": "Ubuntu Codespace",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "settings": {
-    "terminal.integrated.defaultProfile.linux": "bash"
-  },
-  "extensions": [],
   "remoteUser": "root",
   "postCreateCommand": "bash setup.sh"
 }
